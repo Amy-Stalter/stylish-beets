@@ -14,7 +14,7 @@ h1 {
 }
 
 nav ol {
-  font-size: 1.125;
+  font-size: 1.125rem;
   list-style-type: none;
   font-weight: bold;
   color: #8f2440
@@ -40,6 +40,11 @@ figcaption {
   font-style: italic;
   text-align: center;
   font-weight: normal;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 blockquote {
