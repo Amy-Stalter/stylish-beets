@@ -1,11 +1,46 @@
 html {
   background-color: #c9b5ab;
-  line-height: 1.5rem;
+  line-height: 1.5;
+  font-family: "PT Serif", serif;
+  color: #222;
 }
 
-.header {
-  color: #3f1622;
+h1 {
   font-size: 1.5rem;
-  font-weight: bold;
-  font-family: "PT+Serif",sans-serif;
+  font-family: "PT Sans",sans-serif;
+  color: #3f1622;
+}
+
+ol>li {
+  font-size: 1.125;
+  font-family: "PT Sans",sans-serif;
+  font-style: bold;
+  color: #8f2440;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: center;
+  font-weight: normal;
+}
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+p>cite {
+  font-style: normal;
+}
+
+blockquote>p {
+  font-style: italic;
+}
+
+blockquote>cite {
+  font-size: 0.8rem;
 }
