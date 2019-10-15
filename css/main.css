@@ -9,13 +9,26 @@ h1 {
   font-size: 1.5rem;
   font-family: "PT Sans",sans-serif;
   color: #3f1622;
+  text-transform: none;
+  font-weight: bold;
 }
 
-ol>li {
+nav ol {
   font-size: 1.125;
-  font-family: "PT Sans",sans-serif;
-  font-style: bold;
-  color: #8f2440;
+  list-style-type: none;
+  font-weight: bold;
+  color: #8f2440
+}
+
+nav a {
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #222;
+  text-decoration: underline;
 }
 
 img {
